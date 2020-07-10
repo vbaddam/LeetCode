@@ -9,6 +9,7 @@ class Solution:
         '''
         a = []
         i = 0
+        
         j = len(height) - 1
         while i != j:
             a.append(min(height[i],height[j])*(j-i))
